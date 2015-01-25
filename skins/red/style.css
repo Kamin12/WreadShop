@@ -1,0 +1,49 @@
+/*  
+Skin Name: Red
+Version: 1.0
+Description: Skin for Flatshop
+*/
+
+
+/* color reset */
+h1, h2, h3, h4, h5, h6,
+#site-logo a,
+#site-description,
+#menu-icon,
+.post-title,
+.post-title a,
+.widgettitle,
+#footer .social-widget a,
+#body h2 {
+	color: #d64437;
+}
+#menu-icon:hover,
+#site-logo a:hover,
+#footer .social-widget a:hover {
+	color: #f74c40;
+}
+#main-nav a:hover,
+#main-nav .current_page_item a,
+#main-nav .current-menu-item a,
+.social-widget a:hover,
+.social-widget .rss a:hover {
+	color: #ff7470;
+}
+
+/* searchform */
+#header #searchform #s {
+	color: #f74c40;
+	border-color: #f74c40;
+	border-width: 0 0 1px 0;
+}
+
+/* menu slide */
+#cart-icon,
+#slide-nav,
+#slide-cart {
+	color: #fff;
+	background: #d64437;
+}
+#cart-icon:hover {
+	background: #f74c40;
+}

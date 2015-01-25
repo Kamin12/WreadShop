@@ -1,0 +1,49 @@
+/*  
+Skin Name: Orange
+Version: 1.0
+Description: Skin for Flatshop
+*/
+
+
+/* color reset */
+h1, h2, h3, h4, h5, h6,
+#site-logo a,
+#site-description,
+#menu-icon,
+.post-title,
+.post-title a,
+.widgettitle,
+#footer .social-widget a,
+#body h2 {
+	color: #e08433;
+}
+#menu-icon:hover,
+#site-logo a:hover,
+#footer .social-widget a:hover {
+	color: #f49038;
+}
+#main-nav a:hover,
+#main-nav .current_page_item a,
+#main-nav .current-menu-item a,
+.social-widget a:hover,
+.social-widget .rss a:hover {
+	color: #ffb67f;
+}
+
+/* searchform */
+#header #searchform #s {
+	color: #f49038;
+	border-color: #f49038;
+	border-width: 0 0 1px 0;
+}
+
+/* menu slide */
+#cart-icon,
+#slide-nav,
+#slide-cart {
+	color: #fff;
+	background: #e08433;
+}
+#cart-icon:hover {
+	background: #f49038;
+}

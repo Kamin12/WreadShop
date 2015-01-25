@@ -1,0 +1,49 @@
+/*  
+Skin Name: Brown
+Version: 1.0
+Description: Skin for Flatshop
+*/
+
+
+/* color reset */
+h1, h2, h3, h4, h5, h6,
+#site-logo a,
+#site-description,
+#menu-icon,
+.post-title,
+.post-title a,
+.widgettitle,
+#footer .social-widget a,
+#body h2 {
+	color: #b55a00;
+}
+#menu-icon:hover,
+#site-logo a:hover,
+#footer .social-widget a:hover {
+	color: #d86c00;
+}
+#main-nav a:hover,
+#main-nav .current_page_item a,
+#main-nav .current-menu-item a,
+.social-widget a:hover,
+.social-widget .rss a:hover {
+	color: #f97c00;
+}
+
+/* searchform */
+#header #searchform #s {
+	color: #d86c00;
+	border-color: #d86c00;
+	border-width: 0 0 1px 0;
+}
+
+/* menu slide */
+#cart-icon,
+#slide-nav,
+#slide-cart {
+	color: #fff;
+	background: #b55a00;
+}
+#cart-icon:hover {
+	background: #d86c00;
+}

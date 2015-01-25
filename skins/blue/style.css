@@ -1,0 +1,49 @@
+/*  
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Flatshop
+*/
+
+
+/* color reset */
+h1, h2, h3, h4, h5, h6,
+#site-logo a,
+#site-description,
+#menu-icon,
+.post-title,
+.post-title a,
+.widgettitle,
+#footer .social-widget a,
+#body h2 {
+	color: #00b0ba;
+}
+#menu-icon:hover,
+#site-logo a:hover,
+#footer .social-widget a:hover {
+	color: #00d5e0;
+}
+#main-nav a:hover,
+#main-nav .current_page_item a,
+#main-nav .current-menu-item a,
+.social-widget a:hover,
+.social-widget .rss a:hover {
+	color: #00e5ed;
+}
+
+/* searchform */
+#header #searchform #s {
+	color: #00d5e0;
+	border-color: #00d5e0;
+	border-width: 0 0 1px 0;
+}
+
+/* menu slide */
+#cart-icon,
+#slide-nav,
+#slide-cart {
+	color: #fff;
+	background: #00b0ba;
+}
+#cart-icon:hover {
+	background: #00d5e0;
+}
